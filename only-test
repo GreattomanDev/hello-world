@@ -1,0 +1,19 @@
+<html lang="cs">
+<head>
+ <meta charset="UTF-8">
+   <title>GreattomanDev &bull; My first project on github </title>
+   <meta name="author" content="Greattoman">
+   <meta name="robots" content="index, follow">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+   
+   
+   .main {
+   text-align: center;
+   font-family: verdana;
+   font-size: 20px;
+   color: #006C99;
+   margin-top:  10px;
+   }
+   </style>
+</html>
