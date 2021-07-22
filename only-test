@@ -8,12 +8,35 @@
    <style>
    
    
-   .main {
+   main {
    text-align: center;
    font-family: verdana;
    font-size: 20px;
    color: #006C99;
    margin-top:  10px;
    }
+   
+   short {
+   text-align: center;
+   font-family: verdana;
+   font-size: 12px;
+   color: #000;
+   margin-top: 20px;
+   }
    </style>
+   </head>
+   <body>
+   <!-- Header text - nadpis stránky -->
+   <main>GreattomanDev</main>
+   <!-- Header text - nadpis stránky konec -->
+   
+   <!-- short text - krátký popis -->
+   <short>[EN] - Hello, I'm Greattoman and I programming webs. This is test code. <br>
+   I try programming on Github. Github is very interesting platform for programmers. <br>
+   [CZ] - Zdravím, jsem Greattoman a programuju weby. Toto je zkušební kod. <br> 
+   Zkouším programovat na Githubu. Github je velmi zajímavá platforma pro programátory.</short>
+   <!-- short text - krátký popis konec -->
+   
+   <!-- 
+   </body>
 </html>
