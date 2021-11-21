@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="cs">
 <head>
  <meta charset="UTF-8">
@@ -23,20 +24,45 @@
    color: #000;
    margin-top: 20px;
    }
+
+   .footer {
+     background: #006C99;
+     font-family: verdana;
+     text-align: center;
+     margin-top: 20px;
+     color: #fff;
+   }
    </style>
    </head>
    <body>
    <!-- Header text - nadpis stránky -->
-   <main>GreattomanDev</main>
+   <main>Greattoman<b>Dev</b></main>
    <!-- Header text - nadpis stránky konec -->
    
    <!-- short text - krátký popis -->
-   <short>[EN] - Hello, I'm Greattoman and I programming webs. This is test code. <br>
-   I try programming on Github. Github is very interesting platform for programmers. <br>
-   [CZ] - Zdravím, jsem Greattoman a programuju weby. Toto je zkušební kod. <br> 
+   <short><div style="background: #006C99; color: #fff;">[EN]</div> - Hello, I'm Greattoman and I programming webs. This is test code. <br>
+   I try programming on Github. Github is very interesting platform for programmers. <br><br>
+   <div style="background: #006C99; color: #fff;">[CZ]</div> - Zdravím, jsem Greattoman a programuju weby. Toto je zkušební kod. <br> 
    Zkouším programovat na Githubu. Github je velmi zajímavá platforma pro programátory.</short>
+   <br>
    <!-- short text - krátký popis konec -->
-   
-   <!-- 
+   <!-- vložení -->
+<iframe width="650" height="450" src="https://embed.windy.com/embed2.html?lat=46.559&lon=15.864&detailLat=49.217&detailLon=15.883&width=650&height=450&zoom=5&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+   <!-- vložení konec -->
+  
+   <!-- footer - patička webu -->
+   <div class="footer">
+   <ft-text>
+   Tento web byl vytvořen za účelem testu
+   <br>
+   <br>
+   &copy; 2021 Greattoman - všechna práva vyhrazena <br>
+   <br>
+   <br>
+   <br>
+    </ft-text>
+
+   </div>
+   <!-- footer - konec patičky webu -->
    </body>
 </html>
